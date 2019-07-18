@@ -36,5 +36,8 @@
   ],
   "exclude": [
     "node_modules"
+  ],
+  "files": [
+    "src/declare_modules.d.ts"
   ]
 }
