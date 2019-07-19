@@ -1,5 +1,5 @@
 <template lang="pug">
-  #app
+  v-app#app(dark)
     router-view
 </template>
 
@@ -12,7 +12,7 @@ export default class App extends Vue {}
 
 <style lang="scss">
 body {
-  background-color: #2c3e50
+  background-color: #2c3e50;
 }
 
 #app {
